@@ -30,6 +30,9 @@
 .format-butao {
   color: black !important;
   background-color: transparent !important;
+  position: relative;
+  top: -35px;
+  left: 180px;
 }
 
 .bootstrap-switch {
