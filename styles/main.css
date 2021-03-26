@@ -28,7 +28,8 @@
 
  
 .format-butao {
-  color: red !important;
+  color: black !important;
+  background-color: transparent !important;
 }
 
 .bootstrap-switch {
