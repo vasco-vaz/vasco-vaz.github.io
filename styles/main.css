@@ -7274,6 +7274,10 @@ Created using IcoMoon - icomoon.io
   color: #405de6;
 }
 
+.cc-github:hover i {
+  background-color: #000000;
+}
+
 /* Credit Style */
 a.credit {
   color: inherit;
