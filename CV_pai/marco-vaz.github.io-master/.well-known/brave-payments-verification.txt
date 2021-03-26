@@ -1,0 +1,4 @@
+This is a Brave Payments publisher verification file.
+
+Domain: marco-vaz.github.io
+Token: 461cd57b248a22bc0a82a1961e85efe61f76b07cde0abe75193f74f1f2d93938
