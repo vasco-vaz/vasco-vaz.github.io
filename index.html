@@ -196,7 +196,21 @@
       </div>
       <div class="container">
         <div class="content-center">
-          <div class="cc-profile-image"><a class="smooth-scroll" href="VIDEO"><img src="images_vasco\cv_profile.png" alt="Profile Picture"/></a></div>
+          <!--add video href--><div class="cc-profile-image"><a class="smooth-scroll" href=""><img id="profile_pic" src="images_vasco\cv_profile.png" alt="Profile Picture"/></a></div>
+          <script>
+            if (document.getElementById("profile_pic").src="images_vasco/cartoon_profile.png"){
+              document.getElementById("profile_pic").onclick = function() {
+                document.getElementById("profile_pic").src="images_vasco/cartoon_profile.png"; 
+                return false;
+              };
+            }
+            else{
+              document.getElementById("profile_pic").onclick = function() {
+                document.getElementById("profile_pic").src="images_vasco/cv_profile.png"; 
+                return false;
+              };
+            }
+          </script>
           <div class="h2 title">Vasco Vaz</div>
           <p class="category text-white">Computing Science and Engeneering Student, Data Treatment/Analysis junior, Programmer, Trading Amateur, Volunteer, Traveling Enthusiast, Self-taught builder / electrician / plumber, World Geography Expert</p><a class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Hire Me</a><a class="btn btn-primary" href="./CV-Vasco-Vaz.pdf" target="_blank" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Download CV</a>
         </div>
@@ -226,7 +240,7 @@
 			<p> With only <a id="age1"><script>
 			  const getAge = birthDate => Math.floor((new Date() - new Date(birthDate).getTime()) / 31556925994)
 			  document.getElementById("age1").innerHTML = getAge('2002-02-20');
-			  </script></a> years, I've collected knowledge in a diverse set of areas such as <b><i style="color: gray">Team management</i></b>, various <b><i style="color: gray">ICT</i></b> fields, <b><i style="color: gray">Buget planning</i></b>, <b><i style="color: gray">World Geography</i></b> and even basic <b><i style="color: gray">Construction</i></b> concepts. <a href="VIDEO" target="_blank" title="Visit my Linkedin profile page" target="_blank"> Learn More </a></p>
+			  </script></a> years, I've collected knowledge in a diverse set of areas such as <b><i style="color: gray">Team management</i></b>, various <b><i style="color: gray">ICT</i></b> fields, <b><i style="color: gray">Buget planning</i></b>, <b><i style="color: gray">World Geography</i></b> and even basic <b><i style="color: gray">Construction</i></b> concepts. <a href="" target="_blank" title="Visit my Linkedin profile page" target="_blank"> Learn More </a></p><!--add video href-->
            <p>As a goal, I want to continue learning, applying the knowledge that I continually acquire, which allows me to help organizations design, implement and acquire the necessary levels of operability in line with the objectives of their business.</p>
           <div class="row mt-3">
             <div class="col-sm-4"><strong class="text-uppercase">Programming Languages:</strong></div>
