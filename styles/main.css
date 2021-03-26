@@ -5205,6 +5205,7 @@ Created using IcoMoon - icomoon.io
   left: 0;
   top: 0;
   content: "";
+  background-color: rgba(0, 85, 119, 0.3);
 }
 
 .page-header:before {
