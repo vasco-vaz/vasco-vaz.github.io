@@ -629,7 +629,7 @@
 }
 
 .slider.slider-success.noUi-target {
-  background-color: rgba(24, 206, 15, 0.3);
+  background-color: rgba(15, 177, 206, 0.3);
 }
 
 .slider.slider-success .noUi-handle {
@@ -3492,11 +3492,11 @@ body {
 }
 
 .dropdown-menu.dropdown-primary {
-  background-color: #33813a;
+  background-color: #3381ba;
 }
 
 .dropdown-menu.dropdown-primary:before {
-  color: #33813a;
+  color: #3381ba;
 }
 
 .dropdown-menu.dropdown-primary .dropdown-header:not([href]):not([tabindex]) {
@@ -3564,11 +3564,11 @@ body {
 }
 
 .dropdown-menu.dropdown-success {
-  background-color: #16c00e;
+  background-color: #33648b;
 }
 
 .dropdown-menu.dropdown-success:before {
-  color: #16c00e;
+  color: #33648b;
 }
 
 .dropdown-menu.dropdown-success .dropdown-header:not([href]):not([tabindex]) {
@@ -5211,7 +5211,7 @@ Created using IcoMoon - icomoon.io
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.page-header[filter-color="orange"] {
+.page-header[filter-color="blue"] {
   background: rgba(44, 44, 44, 0.2);
   /* For browsers that do not support gradients */
   /* For Safari 5.1 to 6.0 */
