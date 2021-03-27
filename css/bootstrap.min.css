@@ -13,7 +13,9 @@
 .navbar .navbar-nav .nav-link:not(.btn) {
     padding: 8px !important;
 }
-
+.justify-content-end {
+    justify-content: center !important;
+}
 
 @media print {
     *,
