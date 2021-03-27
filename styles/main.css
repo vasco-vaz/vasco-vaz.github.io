@@ -7290,3 +7290,8 @@ a.credit {
 .section {
   padding-bottom: 0;
 }
+
+.window {
+width: 100%;
+height: 100%;
+}
