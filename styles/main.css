@@ -7278,6 +7278,10 @@ Created using IcoMoon - icomoon.io
   color: #5e5e5e;
 }
 
+.cc-linkedin:hover i {
+  color: #0077B5;
+}
+
 /* Credit Style */
 a.credit {
   color: inherit;
